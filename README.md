@@ -4,13 +4,14 @@
 
 ## Как запустить
 
-1. Установи Node.js
+1. Установи [Node.js](https://nodejs.org/)
 2. Скачай репозиторий
-3. В папке проекта выполни:
-   ```bash
-   npm install axios
-   node cbr_json.js
+3. Открой терминал в папке проекта и выполни:
 
+```bash
+npm install axios
+node cbr_json.js
+```
     Результат
 
  В консоль выводятся первые 5 курсов
