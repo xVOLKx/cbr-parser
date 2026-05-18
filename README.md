@@ -2,23 +2,32 @@
 
 Парсер получает данные с API cbr-xml-daily.ru и сохраняет курсы валют в файл cbr_rates.json.
 
-## Как запустить
+## Как 🚀 запустить
 
 1. Установи [Node.js](https://nodejs.org/)
-2. Скачай репозиторий
-3. Открой терминал в папке проекта и выполни:
-
-```bash
-npm install axios
-node cbr_json.js
-```
+2. Склонируй репозиторий:
+   ```bash
+   git clone https://github.com/xVOLKx/cbr-parser.git
+   ```
+3. Перейди в папку проекта:
+   ```bash
+   cd cbr-parser
+   ```
+4. Установи зависимости:
+   ```bash
+   npm install axios
+   ```
+5. Запусти:
+   ```bash
+   node cbr_json.js
+   ```
 ## Результат
 
  В консоль выводятся первые 5 курсов
  Все 54 курса сохраняются в файл cbr_rates.json
 
-## Технологии
+## 🛠️ Технологии
 
-· Node.js
-· Axios
-· JSON API
+- Node.js
+- Axios
+- JSON API
